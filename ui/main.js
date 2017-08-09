@@ -11,7 +11,7 @@ function moveRight(){
     marginLeft = marginLeft + 5;
     img.style.marginLeft = marginLeft + 'px';
     }
-    while(marginLeft<50);
+    while(img.style.marginLeft<'50px');
     }
 
 img.onclick = function(){
