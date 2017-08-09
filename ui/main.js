@@ -7,9 +7,14 @@ element.innerHTML = 'Hey there!';
 var img = document.getElementById('dino');
 var marginLeft = 0;
 function moveRight(){
+    do{
     marginLeft = marginLeft + 5;
     img.style.marginLeft = marginLeft + 'px';
-}
+
+    }
+    while(marginLeft<50);
+    }
+
 img.onclick = function(){
     var interval = setInterval(moveRight, 50);
 };
