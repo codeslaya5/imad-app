@@ -5,6 +5,10 @@ element.innerHTML = 'Hey there!';
 
 //Move the image
 var img = document.getElementById('dino');
+var marginLeft = 0;
+function moveRight(){
+    marginLeft = marginLeft + '10px';
+}
 img.onclick = function(){
-    img.style.marginLeft = '100px';
+    var interval = setInterval(moveRight, 100);
 };
