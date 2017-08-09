@@ -10,7 +10,6 @@ function moveRight(){
     do{
     marginLeft = marginLeft + 5;
     img.style.marginLeft = marginLeft + 'px';
-
     }
     while(marginLeft<50);
     }
