@@ -1,4 +1,4 @@
 console.log('Loaded!');
 
 var element = document.getElementById('main');
-element.innerHTML('Hey there!');
+element.innerHTML = 'Hey there!';
