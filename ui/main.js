@@ -1,4 +1,4 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 
 var element = document.getElementById('main');
 element.innerHTML = 'Hey there!';
@@ -17,6 +17,7 @@ function moveRight(){
 img.onclick = function(){
     var interval = setInterval(moveRight, 50);
 };
+*/
 
 //Counter code
 
