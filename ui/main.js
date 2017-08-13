@@ -38,5 +38,5 @@ button.onclick = function(){
     };
     //Make the request
     request.open('GET','http://vjrockz111.imad.hasura-app.io/counter',true);
-    request.open(null);
+    request.send(null);
 };
