@@ -54,7 +54,7 @@ submit.onclick = function(){
       list+='<li>' + names[i] + '</li>';
   }
   
-  var ul = document.getElementById('');
+  var ul = document.getElementById('namelist');
   ul.innerHTML = list;
   //Capture a list of names and render it as a list
 };
